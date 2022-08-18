@@ -1,0 +1,20 @@
+second website:
+
+the goal (experience):
+to take the lessons learned so far from nodejs, expressjs, ejs. Make something new and see the interactions.
+Use html, css for styling. Make a login page (hard coded user/pass of 'admin':'admin').
+
+the goal (of the project):
+Pages:
+-login
+-launch
+-info form/register (with github user)
+-textbox writing (with auto date) page
+-fail to log in
+-confirm register, go back to login
+
+Features:
+-take username from info form to display some stats from github
+-save info form somewhere in this instance
+-save writing in this instance
+-display the saved information in the user launch screen

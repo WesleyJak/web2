@@ -1,0 +1,34 @@
+<%- include('header')%>
+
+<div class="container">
+    <div class="headings">
+        <h2>Welcome to the site!</h2>
+        <h3>Below you can sign in or register</h3>
+    </div>
+</div>
+<div class="container-fluid">
+    <article class="grid">
+        <div>
+            <form action="/launch" method="post">
+                <div class="container">
+                    <label for="username">Username</label>
+                    <input type="text" name="name" id="username" placeholder="enter username" required>
+                </div>
+                <div class="container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="enter password" required>
+                </div>
+                <div class="container">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <img src="stream.jpg" alt="Stream">
+        </div>
+    </article>
+</div>
+<div class="container">
+    <a href="/infoform" class="link">Click here to register</a>
+</div>
+<%- include('footer')%>
